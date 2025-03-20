@@ -1,0 +1,13 @@
+services:
+  - name: my-golang-app
+    type: web
+    env: go
+    plan: free
+    buildCommand: |
+      ng build --configuration=production
+      cd server
+      go mod tidy
+    startCommand: ./api
+    envVars:
+      - key: DATABASE_URL
+        sync: false
