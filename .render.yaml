@@ -7,7 +7,7 @@ services:
       ng build --configuration=production
       cd server
       go mod tidy
-    startCommand: ./api
+    startCommand: ./server
     envVars:
       - key: DATABASE_URL
         sync: false
