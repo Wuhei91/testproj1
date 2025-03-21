@@ -1,0 +1,9 @@
+{
+  "d1_databases": [
+    {
+      "binding": "GUESTS_DB",
+      "database_name": "guests-db",
+      "database_id": "ed7c0143-4274-4d50-82f5-fc74e64b184c"
+    }
+  ]
+}
